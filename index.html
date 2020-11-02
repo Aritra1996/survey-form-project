@@ -1,0 +1,78 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link rel="stylesheet" href="styles.css" />
+<div id="main">
+  <header>
+    <h1 id="title"><strong>Survey Form</strong></h1>
+    <p id="description">Enter details to submit the form</p>
+  </header>
+  <main>
+    <form id="survey-form">
+      <label for="name" id="name-label"
+        >Enter your name :-
+        <input type="text" id="name" placeholder="Aritra Rakshit" required
+      /></label>
+      <br />
+      <label for="email" id="email-label"
+        >Enter your email-id :-
+        <input type="email" id="email" placeholder="abc@gmail.com" required
+      /></label>
+      <br />
+      <label for="number" id="number-label"
+        >Enter your age :-
+        <input
+          type="number"
+          id="number"
+          min="10"
+          max="80"
+          placeholder="15"
+          required
+      /></label>
+      <br />
+      <label for="dropdown"
+        >Select Gender :-
+        <select id="dropdown">
+          <option value="m">Male</option>
+          <option value="f">Female</option>
+          <option value="o">Others</option>
+        </select></label
+      >
+      <br />
+      <p>Please select your nationality :-</p>
+      <label for="indian">
+        <input type="radio" name="nationality" id="indian" value="indian" />
+        Indian</label
+      >
+      <label for="other">
+        <input type="radio" name="nationality" id="other" value="other" />
+        Other</label
+      >
+      <br />
+      <p>Type of job you are looking for :-</p>
+      <label for="part-time"
+        ><input
+          id="part-time"
+          type="checkbox"
+          name="part-time"
+          value="part-time"
+        />
+        Part-Time</label
+      >
+      <label for="full-time"
+        ><input
+          id="full-time"
+          type="checkbox"
+          name="full-time"
+          value="full-time"
+        />
+        Full-Time</label
+      >
+      <br />
+      <label for="comments">
+        Comments:-
+        <textarea id="comments" value="comments"></textarea>
+      </label>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </main>
+</div>

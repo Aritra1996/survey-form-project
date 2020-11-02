@@ -1,0 +1,13 @@
+#title {
+  font-style: bold;
+  text-align: center;
+}
+#description {
+  text-align: center;
+}
+#header {
+  display: grid;
+}
+#survey-form {
+  display: grid;
+}
